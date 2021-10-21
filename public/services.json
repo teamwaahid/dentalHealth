@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Children Dental Care",
+        "description": "Early preventative dental care helps children reduce their chances of tooth decay and fear of the dentist. By establishing a relationship with your child at a young age, we can familiarise them with the dental clinic so that it’s a happy place they don’t mind visiting. Unfortunately, many children never see the dentist until they’re in pain, linking the two together.",
+        "img": "https://doc.vortala.com/childsites/uploads/3862/files/126.png",
+        "details": "Your Child First Checkup At Dental Health we recommend that children have their first checkup with us by the time they turn 4 years old. If you like, they can come in earlier to watch an older sibling or parent get a check and clean. The more familiar they are with our clinic, the more positive outlook they can have on their oral care experience. At your child’s first appointment, we’ll work at their pace and show them around the office. While you fill out any necessary forms, your child can entertain themselves with the colouring station in our reception area. When we’ve escorted everyone back to a patient care room, there are TVs on the ceiling which generally distract most children during their exam. If all they’re prepared for is a short ride up and down in the chair, along with oral hygiene instruction, we’ll work from there. Everything is adjusted to your child’s comfort level. If your child requires any treatment, we can arrange to do book it for a separate appointment. However, if your child is experiencing discomfort and requires emergency attention, we will get them out of pain the same day."
+    },
+    {
+        "id": 2,
+        "name": "Dental Implant",
+        "description": "Have a missing tooth? Dental implants are the next best thing to having a real one all over again. We consider dental implants to be the ultimate treatment for replacing missing teeth or in full mouth reconstruction. Why? Because they’re designed to mimic the look, feel and function of your natural smile.",
+        "img": "https://doc.vortala.com/static/uploads/9/files/DI_set2-implant-39-400.jpg",
+        "details": "Benefits of Getting Implants. Dental implants offer tremendous advantages over other types of tooth replacement options. Here are just some of the benefits that make them our treatment of choice: Prevent sunken-in facial profiles, Are non-invasive to your adjacent teeth, Feel and function similar to real teeth, Preserve natural tooth spacing, Are easy to care for, Can last the rest of your life, Are stronger than natural teeth, Can replace single or multiple teeth."
+    },
+    {
+        "id": 3,
+        "name": "Dentures",
+        "description": "When you have multiple missing teeth and need an economical option to replace them, dentures are a great solution. A custom denture is usually more affordable than getting several bridges or dental implants.",
+        "img": "https://doc.vortala.com/static/uploads/9/files/gentleman-on-bright-blue-bench-sq-400.jpg",
+        "details": "What to Expect Getting dentures usually requires about four visits to Adelaide Dental Spa to complete from start to finish. Over the course of each one, we’ll measure your jaw, take impressions of your teeth and record how they bite together. We’ll also want to match the colour of your natural teeth, especially if you’re getting a partial denture (so that it blends in with your surrounding smile). The process typically takes anywhere from 4-8 weeks."
+    },
+    {
+        "id": 4,
+        "name": "Emergency Care",
+        "description": "If you’re in pain or have a toothache, we offer same day emergency dental appointments to get you quick relief. Even if you’re a new patient, it’s always our priority to alleviate your discomfort as soon as possible. We specifically set aside time each day to facilitate emergency care.",
+        "img": "https://doc.vortala.com/static/uploads/9/files/severe-jaw-pain-sq-400.jpg",
+        "details": "What if it’s After Hours? Be sure to leave a message and one of our team members will return your call as quickly as possible the next business day. If you are experiencing severe bleeding, swelling or intense pain after hours, please go to the nearest emergency room. Getting You Out of Pain Our top priority is to alleviate your discomfort. When you’re finally out of pain, we can discuss the next best steps to take, be it a filling, extraction or something else. Since dental infections don’t have anywhere to go, they can keep recurring and feel quite painful. The first thing we want to do is to help you feel comfortable so that you can discuss what to do next."
+    },
+    {
+        "id": 5,
+        "name": "Fillings",
+        "description": "Dental decay compromises the structure of teeth, leading them to deterioration and fractures. Even worse, cavities can spread into adjacent teeth, involving multiple areas before the infection is treated. Removing the decay and repairing the cavity with a dental filling offers both restorative and cosmetic advantages, filling in the area with white composite that bonds closely with your tooth structure.",
+        "img": "https://doc.vortala.com/childsites/uploads/3862/files/dental-assistant-shares-xray-with-client.jpg",
+        "details": "Direct and Indirect Fillings: Traditional fillings are direct restorations, which we shape by hand. After we clean away the decaying tooth structure, a matching composite is placed into the opening and cured to the tooth. The colour is specially matched so that your tooth appears whole again. An indirect filling is one that we make for larger areas of structural damage. After we’ve prepped your tooth, a 3D scan is taken to create a virtual model of the area being treated. From there, our in-house CEREC CAD/CAM milling machine creates a custom indirect filling from a solid block of porcelain. Indirect fillings are more durable when there’s a larger area to repair. Because 3D scanning is so accurate, the indirect restoration will fit your tooth precisely as possible. Both of these types of fillings are made and placed on the same day at Dental Health. There’s no need for a separate follow-up appointment."
+    },
+    {
+        "id": 6,
+        "name": "Root Canal",
+        "description": "Endodontic therapy – or root canal treatment – is the preferred method of care for teeth that are dying or have an infected nerve. Instead of having the tooth removed, a root canal allows us to save and preserve it for several more years. By saving your natural tooth, you can also maintain normal biting and tooth alignment for optimal aesthetics and TMJ function. Most root canal treatments are completed right here at Dental Health, rather than referring patients elsewhere.",
+        "img": "https://doc.vortala.com/static/uploads/9/files/tooth-cross-sq-400.jpg",
+        "details": "Root Canal Misconceptions:      There’s a common myth that the only thing you need to treat an infected tooth is an antibiotic. Although an antibiotic can help the initial infection to go down, it will eventually come back because there is nowhere for the residual bacteria to go. It can lead to painful recurring abscesses, toothaches, swollen gums or complete deterioration of the tooth. Getting a root canal helps to treat the source of the pain and infection, rather than lead to additional discomfort. Being that the tooth is numbed, cleaned out, medicated and filled, there is no longer a vital nerve to cause painful toothaches or throbbing that wakes you up at night."
+    },
+    {
+        "id": 7,
+        "name": "Snoring and Sleep Apnoea",
+        "description": "Do you have trouble getting a good night’s sleep? Does your snoring bother your partner or other people in your home? If you have mild to moderate obstructive sleep apnoea or are CPAP intolerant, a custom oral sleep appliance may be the best treatment for your situation.",
+        "img": "https://doc.vortala.com/static/uploads/9/files/sleep-apnea-sq-400.jpg",
+        "details": "What is Sleep Apnoea? Obstructive sleep apnoea is a common type of sleep disturbance that happens when your oxygen supply is cut off. Some people stop breathing for as long as 10 seconds or more. It occurs when there is an obstruction in the airway, sealing off the throat and preventing oxygen intake. Having sleep apnoea can increase your risk of: Stroke, Heart attack, High blood pressure, Diabetes, Automobile accidents (due to daytime fatigue). If you wake up in the morning with a headache or already feeling tired, ask your sleep partner if they notice that you snore or gasp for breath throughout the night."
+    }
+]
