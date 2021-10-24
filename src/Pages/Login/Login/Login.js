@@ -1,16 +1,35 @@
 import React, { useState } from 'react';
 import useAuth from './../../../hooks/useAuth';
 import { Link } from 'react-router-dom';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { useHistory } from "react-router";
 
 const Login = () => {
-    const { handleLogIn, signInUsingGoogle } = useAuth();
+    const { signInUsingGoogle } = useAuth();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    const logInSubmit = () => {
-        handleLogIn(email, password);
-    };
+    const history = useHistory();
+    const { currentUser } = getAuth();
 
+    if (currentUser) {
+        history.push("/services");
+    }
+    const auth = getAuth();
+
+    const logInSubmit = (event) => {
+        event.preventDefault();
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // Signed in
+                const user = userCredential.user;
+                // ...
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+            });
+    };
 
     return (
         <div className="container" id="loginSection">
@@ -27,7 +46,7 @@ const Login = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Log In</button>
             </form><br /><br />
-            <Link to="/signup">Didn't Registered?</Link>
+            <Link to="/register">Didn't Registered?</Link>
             <br /><br />
             <button onClick={signInUsingGoogle} className="btn btn-warning">Google Sign In</button>
         </div>

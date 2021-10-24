@@ -1,11 +1,20 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import { getAuth } from "firebase/auth";
+import { useHistory } from "react-router";
 
 const Register = () => {
     const { handleRegistration } = useAuth();
+    const history = useHistory();
+    const { currentUser } = getAuth();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+
+    if (currentUser) {
+        history.push("/services");
+    }
+    const auth = getAuth();
 
     const signUpSubmit = (event) => {
         event.preventDefault();
